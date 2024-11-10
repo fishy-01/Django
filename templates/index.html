@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <title>my trial</title>
+</head>
+<body>
+<a href="{% url 'index' %}">home</a>
+<a href="{% url 'about' %}">about</a>
+<a href="{% url 'blog' %}">more info</a>
+    <h1>my first webpage</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores autem culpa cumque fuga possimus qui, quo reprehenderit vitae! Adipisci blanditiis fuga
+        iste minima pariatur! At id iusto laborum numquam quam.</p>
+<a href="https://stackoverflow.com/">Visit Stackoverflow</a>
+<img src="{% static 'images/salmon1.jpg' %}" alt="">
+<img src="{% static 'images/salmon3.jpg' %}" alt="">
+</body>
+</html>
